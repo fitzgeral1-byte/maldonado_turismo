@@ -80,4 +80,4 @@ Ejemplo:
 - Guarda los archivos y sube los cambios a GitHub.
 - La página se actualizará automáticamente en unos segundos en tu sitio de GitHub Pages
 
-© 2025 Turismo Local del departamento de Maldonado. Desarrollado para fines comerciales.
+© 2025 Turismo Local del departamento de Maldonado. Desarrollado para uso comercial.
