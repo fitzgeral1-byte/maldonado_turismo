@@ -1,0 +1,17 @@
+{
+  "imagenes": [
+    {
+      "archivo": "placeholder.svg",
+      "titulo": "Promoción Verano",
+      "link": "#"
+    }
+  ],
+  "videos": [
+    {
+      "archivo": "promo_estacional.mp4",
+      "titulo": "Video Promo",
+      "poster": "placeholder.svg",
+      "link": "#"
+    }
+  ]
+}

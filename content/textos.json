@@ -1,0 +1,92 @@
+{
+  "titulo": "Turismo Local",
+  "descripcion": "Descubre actividades, servicios y las mejores ofertas de nuestra región.",
+  "actividades": {
+    "diarias": [
+      {
+        "titulo": "Visita guiada al casco histórico",
+        "descripcion": "Recorrido a pie por los puntos históricos.",
+         "imagen": "images/actividades/faro.jpg"
+      },
+      {
+        "titulo": "Tour gastronómico",
+        "descripcion": "Degustación de productos locales en 3 paradas."
+      }
+    ],
+    "semanales": [
+      {
+        "titulo": "Feria artesanal dominical",
+        "descripcion": "Artesanos locales y música en vivo.",
+        "imagen": "images/actividades/feria_artesanos.jpg"
+
+      },
+      {
+        "titulo": "Cata de vinos semanal",
+        "descripcion": "Cata dirigida en bodega local."
+      }
+    ],
+    "mensuales": [
+      {
+        "titulo": "Festival cultural mensual",
+        "descripcion": "Muestras artísticas, teatro y gastronomía.",
+        "imagen": "images/actividades/festival_chivito.jpg"
+      },
+      {
+        "titulo": "Circuito de ciclismo",
+        "descripcion": "Ruta guiada por paisajes naturales."
+      }
+    ]
+  },
+  "servicios": {
+    "taxis": [
+      {
+        "nombre": "Radio Taxi Central",
+        "telefono": "+598-1234-5678",
+        "descripcion": "Servicio 24/7."
+      }
+    ],
+    "alquiler_autos": [
+      {
+        "nombre": "AutoRent",
+        "telefono": "+598-8765-4321",
+        "descripcion": "Vehículos económicos y SUV."
+      }
+    ],
+    "hoteles": [
+      {
+        "nombre": "Hotel Bahia",
+        "telefono": "+598-2222-2222",
+        "descripcion": "3 estrellas frente al mar."
+      }
+    ],
+    "bares": [
+      {
+        "nombre": "Bar El Puerto",
+        "telefono": "+598-3333-3333",
+        "descripcion": "Cocteles y música en vivo."
+      }
+    ],
+    "restaurantes": [
+      {
+        "nombre": "La Parrilla",
+        "telefono": "+598-4444-4444",
+        "descripcion": "Especialidad en carnes."
+      }
+    ],
+    "bodegas": [
+      {
+        "nombre": "Bodega Sol",
+        "telefono": "+598-5555-5555",
+        "descripcion": "Vinos artesanales y visitas guiadas."
+      }
+    ]
+  },
+  "publicidades": {
+    "titulo": "Publicidades y promociones"
+  },
+  "contacto": {
+    "titulo": "Contacto",
+    "email": "info@turismolocal.example",
+    "telefono": "+598-7000-0000"
+  }
+}

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Turismo Local</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 id="site-title">Turismo Local</h1>
+      <p id="site-desc">Descubre actividades, servicios y ofertas.</p>
+    </div>
+  </header>
+
+  <nav class="nav container" id="main-nav">
+    <a href="#actividades">Actividades</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#publicidades">Publicidades</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <main class="container">
+    <section id="actividades" class="card">
+      <h2>Actividades</h2>
+      <div class="tabs">
+        <button data-tab="diarias" class="tab active">Diarias</button>
+        <button data-tab="semanales" class="tab">Semanales</button>
+        <button data-tab="mensuales" class="tab">Mensuales</button>
+      </div>
+      <div id="actividades-content"></div>
+    </section>
+
+    <section id="servicios" class="card">
+      <h2>Servicios</h2>
+      <div id="servicios-content" class="grid-2"></div>
+    </section>
+
+    <section id="publicidades" class="card">
+      <h2 id="pub-titulo">Publicidades</h2>
+      <div id="publicidades-media" class="pub-grid"></div>
+    </section>
+
+    <section id="contacto" class="card">
+      <h2 id="contact-titulo">Contacto</h2>
+      <p id="contact-info"></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>&copy; <span id="year"></span> Turismo Local. Todos los derechos reservados.</small>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

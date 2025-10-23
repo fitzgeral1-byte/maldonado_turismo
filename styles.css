@@ -1,0 +1,35 @@
+*{box-sizing:border-box}
+:root{
+  --accent:#0b7285;
+  --muted:#6c757d;
+  --bg:#f8f9fa;
+  --card:#ffffff;
+  --radius:12px;
+}
+body{font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin:0; background:var(--bg); color:#111;}
+.container{max-width:1100px;margin:0 auto;padding:16px;}
+.site-header{background:linear-gradient(90deg,var(--accent),#48b1bf);color:white;padding:28px 0;}
+.site-header h1{margin:0;font-size:1.6rem}
+.site-header p{margin:6px 0 0;font-size:0.95rem;opacity:0.95}
+
+.nav{display:flex;gap:12px;flex-wrap:wrap;padding:12px 0;align-items:center}
+.nav a{color:var(--accent);text-decoration:none;padding:8px 12px;border-radius:8px;border:1px solid transparent}
+.nav a:hover{background:rgba(11,114,133,0.08)}
+
+.card{background:var(--card);border-radius:var(--radius);padding:16px;margin:18px 0;box-shadow:0 6px 18px rgba(2,6,23,0.06)}
+.tabs{display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap}
+.tab{padding:8px 10px;border-radius:8px;border:1px solid #e6eef0;background:transparent;cursor:pointer}
+.tab.active{background:var(--accent);color:white;border-color:transparent}
+
+#actividades-content .actividad{padding:10px;border-radius:8px;border:1px dashed #eef5f7;margin-bottom:10px}
+.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+@media(max-width:760px){.grid-2{grid-template-columns:1fr} .nav{justify-content:space-between} .site-header h1{font-size:1.2rem}}
+
+.pub-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.pub-item{border-radius:8px;overflow:hidden;border:1px solid #e6eef0;background:#fff;display:flex;flex-direction:column}
+.pub-item img, .pub-item video{width:100%;height:auto;display:block}
+.pub-item .meta{padding:8px 10px;font-size:0.95rem;background:#fcfcfd;border-top:1px solid #f1f4f6}
+@media(max-width:900px){.pub-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:550px){.pub-grid{grid-template-columns:1fr}}
+
+.site-footer{padding:18px 0;text-align:center;color:var(--muted);font-size:0.9rem}
