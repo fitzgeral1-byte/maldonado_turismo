@@ -80,4 +80,45 @@ Ejemplo:
 - Guarda los archivos y sube los cambios a GitHub.
 - La página se actualizará automáticamente en unos segundos en tu sitio de GitHub Pages
 
+
+###  4. Actualizar desde Git
+Haz clic en la carpeta:
+images/actividades/
+Luego haz clic en el botón “Add file” → “Upload files”.
+Arrastra o selecciona las imágenes que quieras subir desde tu PC (por ejemplo paseo_rio.jpg, visita_museo.png, etc.).
+Haz clic en Commit changes (abajo de la página) para guardar los cambios.
+⚠️ No borres las imágenes anteriores, solo agrega nuevas.
+
+Actualizar el archivo textos.json (opcional)
+Si quieres mostrar una nueva descripción o texto relacionado con las nuevas imágenes:
+bre la carpeta:
+content/
+Haz clic en textos.json.
+Luego en el lápiz  (Editar archivo).
+Cambia o agrega textos, por ejemplo:
+{
+  "actividades": {
+    "diarias": "Paseos guiados por la ciudad y visitas a museos locales",
+    "semanales": "Excursiones a bodegas, caminatas y rutas en bicicleta",
+    "mensuales": "Eventos culturales, ferias gastronómicas y festivales"
+  }
+}
+Guarda con Commit changes.
+
+Esperar la actualización
+GitHub Pages se actualiza automáticamente en 1 o 2 minutos.
+Luego visita tu sitio
+
+Si agregas imágenes nuevas, asegúrate de referenciarlas en el archivo textos.json o en app.js (según la versión que uses) para que aparezcan correctamente en el carrusel o galería.
+Por ejemplo, si en app.js las actividades se cargan desde el JSON, puedes agregar un campo en el JSON como este:
+{
+  "actividades": {
+    "diarias": [
+      { "titulo": "Paseo por el río", "imagen": "images/actividades/rio.jpg" },
+      { "titulo": "Museo local", "imagen": "images/actividades/museo.jpg" }
+    ]
+  }
+}
+
+
 © 2025 Turismo Local del departamento de Maldonado. Desarrollado para uso comercial.
