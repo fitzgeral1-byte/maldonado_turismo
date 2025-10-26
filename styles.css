@@ -36,4 +36,17 @@ main{padding:20px;}
   font-weight: bold;
   cursor: pointer;
 }
+.galeria img, .galeria video {
+  width: 250px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.galeria img:hover, .galeria video:hover {
+  transform: scale(1.05);
+}
+
 
