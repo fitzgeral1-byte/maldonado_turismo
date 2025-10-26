@@ -85,13 +85,34 @@
     </section>
   </main>
 
-  <script src="app.js"></script>
-  <div id="imgModal" class="modal">
+</div>
+  <!-- Modal para ampliar imágenes -->
+<div id="imgModal" class="modal">
   <span class="close">&times;</span>
   <img class="modal-content" id="modalImg">
   <div id="caption"></div>
 </div>
-  
+
+<!-- Script de ampliación de imágenes -->
+<script>
+document.querySelectorAll('img').forEach(img => {
+  img.style.cursor = 'pointer';
+  img.addEventListener('click', function () {
+    const modal = document.getElementById('imgModal');
+    const modalImg = document.getElementById('modalImg');
+    const caption = document.getElementById('caption');
+    
+    modal.style.display = 'block';
+    modalImg.src = this.src;
+    caption.innerHTML = this.alt || '';
+  });
+});
+
+document.querySelector('.close').addEventListener('click', function () {
+  document.getElementById('imgModal').style.display = 'none';
+});
+</script>
+
 </body>
   <footer>
     <p>© 2025 Turismo Web</p>
