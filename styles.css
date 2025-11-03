@@ -48,5 +48,43 @@ main{padding:20px;}
 .galeria img:hover, .galeria video:hover {
   transform: scale(1.05);
 }
+/* --- Ajustes para tablets --- */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .galeria {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  section {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+}
+
+/* --- Ajustes para celulares --- */
+@media (max-width: 480px) {
+  .galeria {
+    grid-template-columns: 1fr;
+  }
+
+  nav ul {
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
 
 
